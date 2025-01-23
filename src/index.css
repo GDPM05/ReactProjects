@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.appHeader, .appHeader ul {
+  display: flex;
+}
+
+.appHeader ul{
+  width: 50%;
+  justify-content: space-between;
+}
+
+.appHeader ul li{
+  list-style: none;
+  font-size: 20px;
+}
+
+.appHeader a{
+  text-decoration: none;
+  font-size: larger;
+  line-height: 45px;
+  color: white;
+}
+
+.appHeader {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  line-height: 100%;
+  padding: 10px;
+  justify-content: space-between;
+}
